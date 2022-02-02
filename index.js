@@ -1284,9 +1284,9 @@ if (autobio === false) return
       settingstatus = new Date() * 1;
     }}
 		mess = {
-			wait: '```[ ! ] Proses kak...```',
+			wait: '```[ ! ] processing ⏳...```',
 			success: '```[ ✓ ]``` Success',
-			wrongFormat: 'Format salah, coba liat lagi di menu',
+			wrongFormat: 'Wrong Format menu',
 			error: {
 				stick: 'Itu bukan stiker',
 				Iv: 'Linknya error:v'
@@ -2251,7 +2251,7 @@ break
 		try {
 					pp_userb = await alpha.getProfilePicture(sender)
 				} catch {
-					pp_userb = 'https://i.ibb.co/rvsVF3r/5012fbb87660.png'
+					pp_userb = 'https://i.ibb.co/0JzDdm5/200.jpg'
 				}
 			let pp_userz = await getBuffer(pp_userb)
 let cek = ms( await premium.getPremiumExpired(sender, premium) - Date.now())
@@ -2300,7 +2300,7 @@ break
 			try {
 					pp_userb = await alpha.getProfilePicture(sender)
 				} catch {
-					pp_userb = 'https://i.ibb.co/rvsVF3r/5012fbb87660.png'
+					pp_userb = 'https://i.ibb.co/0JzDdm5/200.jpg'
 				}
 			let pp_userz = await getBuffer(pp_userb)
  if (isRegister) return reply('Kamu sudah terdaftar di dalam database')
@@ -2495,7 +2495,7 @@ break
                 try {
 					pp_userb = await alpha.getProfilePicture(sender)
 				} catch {
-					pp_userb = 'https://i.ibb.co/rvsVF3r/5012fbb87660.png'
+					pp_userb = 'https://i.ibb.co/0JzDdm5/200.jpg'
 				}
 			let pp_userz = await getBuffer(pp_userb)
                 let papao = [{
@@ -5870,7 +5870,7 @@ if (budy.includes("eror",'error','Eror','Error')){
 			try {
 					pp_userb = await alpha.getProfilePicture(sender)
 				} catch {
-					pp_userb = 'https://i.ibb.co/rvsVF3r/5012fbb87660.png'
+					pp_userb = 'https://i.ibb.co/0JzDdm5/200.jpg'
 				}
 			let pp_userz = await getBuffer(pp_userb)
 			if (isRegister) return reply('Kamu sudah terdaftar di dalam database')
